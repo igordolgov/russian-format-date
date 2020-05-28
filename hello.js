@@ -1,9 +1,9 @@
 //Вывод полной даты и времени в консоль в русскоязычном варианте со склонениями
-let now = new Date();
-let day = now.getDate();
-let month = now.getMonth();
-let year = now.getFullYear();
-let today = now.getDay();
+let now = new Date(); //количество миллисекунд с 1 января 1970 года (в местной временной зоне)
+let day = now.getDate(); //возвращает день месяца
+let month = now.getMonth(); //возвращает номер месяца (январь = 0)
+let year = now.getFullYear(); //возвращает год (4 цифры)
+let today = now.getDay(); //возвращает номер дня недели, начиная с воскресенья
 let hours = now.getHours();
 let minutes = now.getMinutes();
 let seconds = now.getSeconds();
